@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLZ mais</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            
+        }
+        img{
+            max-width: 180px;
+            max-height: 360px;
+            
+        }
+
+        /* Estilos para o cabeçalho */
+        header {
+            background-color: #333;
+            padding: 20px;
+            
+        }
+
+        /* Estilos para os botões do cabeçalho */
+        button.btn {
+            width: 323px;
+        }
+
+        /* Estilos para o corpo da página */
+        body {
+            background-color: #f0f0f0;
+        }
+
+        /* Estilos para o conteúdo de destaque */
+        .p-3 {
+            padding: rem;
+            color: #333;
+            background-color: #eaeaea;
+            border: 1px solid #333;
+            border-radius: 0.5rem;
+        }
+
+        /* Estilos para os botões no conteúdo de destaque */
+        .p-3 .btn {
+            margin-right: 0px;
+        }
+
+        /* Estilos para a seção de colunas */
+        .col {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;            
+        }
+
+        /* Estilos para as caixas de imagem */
+        .box-images {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            text-align: center;
+           
+        }
+
+        .box-images .box-image1,
+        .box-images .box-image2,
+        .box-images .box-image3 {
+            width: 18rem;
+            
+        }
+
+        /* Estilos para o texto das caixas de imagem */
+        .box-images .card-body {
+            background-color: #7b3131;
+            padding: 5rem;
+            border-radius: 0.5rem;
+        }
+
+        /* Estilos para o slideshow */
+        .carousel-inner {
+            padding: 5%;
+            display: flex;
+            justify-items: center;
+            text-align: center;
+        }
+
+        .carousel-inner img {
+            width: 20rem;
+        }
+
+        /* Estilos para os controles do slideshow */
+        .carousel-control-prev,
+        .carousel-control-next {
+            background-color: #333;
+        }
+
+        /* Estilos para os indicadores do slideshow */
+        .carousel-indicators {
+            position: relative;
+            bottom: -30px;
+        }
+
+    </style>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Conteúdo do cabeçalho aqui -->
+        <div class="bg-primary-subtle rounded-3">
+            <div class="container grid text-center" style="display: inline-flex; padding: 1%; margin: 5px 5px 0px 0px;">
+                <button type="button" class="btn btn-outline-primary" style="width: 323px;">Home</button>
+                <button type="button" class="btn btn-outline-primary" style="width: 323px;">basic</button>
+                <button type="button" class="btn btn-outline-primary" style="width: 323px;">secondary</button>
+                <button type="button" class="btn btn-outline-primary" style="width: 323px;">third</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-b2">
+        
+        <!-- Conteúdo do destaque aqui -->
+        <div class="container grid text-center" style="display: inline-flex; padding: 1%; margin: 5px 5px 0px 0px;">
+                <button type="button" class="btn btn-outline-primary" style="width: 323px;">Home</button>
+                <button type="button" class="btn btn-outline-primary" style="width: 323px;">basic</button>
+                <button type="button" class="btn btn-outline-primary" style="width: 323px;">secondary</button>
+                <button type="button" class="btn btn-outline-primary" style="width: 323px;">third</button>
+        </div>
+    </div>
+
+    <div>
+        <!-- Conteúdo das colunas aqui -->    
+
+        <div class="casa">
+            <div class="box-images">
+                <!-- Conteúdo das caixas de imagem aqui -->
+
+                <div id="main_box" class="display:flex; width:30px; heigth:30px, bg-secondary"> 
+                    <div class="container" style="display: flex; justify-content: space-evenly; text-align: center;">
+                        <div class="box-image1" style="width: 18rem; flex-direction: row">                
+                            <div class="card-body">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKwoBkX6rqcLPj5Skv8Sigw3qmba_6oWf_3F31t-iHjREfkWzl80s9Kp9kGk9oSFLqAlE&usqp=CAU.jpg" class="card-img-top" alt="teatroarthurazevedooficial">
+                                <h3 class="card-title">Teatro Arthur Azevedo</h3>
+                                <p class="card-text">O nome Teatro Arthur Azevedo,
+                                    viria na década de 20 em homenagem a um importante
+                                    teatrólogo maranhense. Desde então, o lugar enfrentou
+                                    momentos de crise e chegou a funcionar como cinema,
+                                    além de sofrer restaurações que acabaram por descaracterizar
+                                    alguns de seus elementos. Na década de 60, o governo do
+                                    estado pôs fim ao contrato com a empresa cinematográfica
+                                    que o havia arrendado.</p>
+                                <a href="https://www.instagram.com/teatroarthurazevedooficial/" target="_blank" class="btn btn-primary">Veja o Teatro</a>
+                                <br></br>
+                            </div>
+                        </div>
+                
+                    
+                        <div class="box-image2" style="width: 18rem; flex-direction: row">       
+                            <div class="card-body bg-primary-subtle">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/SaoLuisCathedral-Altar1.jpg" class="card-img-top" alt="teatroarthurazevedooficial">
+                                <h3 class="card-title">Catedral da Sé</h3>
+                                <p class="card-text">A Catedral de São Luís do Maranhão
+                                    (Catedral de Nossa Senhora da Vitória) é a sede da
+                                    arquidiocese do mesmo nome. Localiza-se na Praça Pedro II,
+                                    no centro de São Luís, capital do estado do Maranhão, no Brasil.
+                                    É um importante monumento do núcleo antigo da cidade,
+                                    declarado Patrimônio da Humanidade pela UNESCO.</p>                        
+                                    <a href="https://www.instagram.com/catedraldasesaoluisma/" target="_blank" class="btn btn-primary">Veja a Igreja</a>
+                                <br></br>
+                            </div>
+                        </div>
+            
+                        <div class="box-image3" style="width: 18rem; flex-direction: row">
+                            <div class="card-body bg-primary-subtle">
+                                <img src="https://beirouth.files.wordpress.com/2011/01/lec3a3o.jpg" class="card-img-top" alt="teatroarthurazevedooficial">
+                                <h3 class="card-title">Palácio dos Leões</h3>
+                                <p class="card-text">
+                                    O Palácio dos Leões, sede política e institucional do Governo do Estado do Maranhão e um dos maiores patrimônios arquitetônicos do estado, data historicamente do dia 8 de setembro de 1612, quando os franceses, comandados por Daniel de La Touche, Senhor de La Ravardiere, estabeleceram a França Equinocial entre os estuários dos rios Anil e Bacanga, na Ilha de Upaon Açu, iniciando a construção de um forte, ao qual deram o nome de São Luís, em homenagem ao Rei da França.</p>
+                                <a href="https://www.instagram.com/museudopalaciodosleoes/" target="_blank" class="btn btn-primary">Veja o Palácio</a>
+                                <br></br>
+                            </div>
+                        </div>
+                    </div>    
+                </div>        
+            </div>
+        </div>
+        </hr>        
+        <div id="main_box" class="display:flex; width:30px; heigth:30px, bg-secondary"> 
+            <div class="container" style="display: flex; justify-content: space-evenly; text-align: center;">
+
+                <div class="box-image2" style="width: 18rem; flex-direction: row">       
+                <div class="card-body bg-primary-subtle">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/SaoLuisCathedral-Altar1.jpg" class="card-img-top" alt="teatroarthurazevedooficial">
+                    <h3 class="card-title">Catedral da Sé</h3>
+                    <p class="card-text">A Catedral de São Luís do Maranhão
+                        (Catedral de Nossa Senhora da Vitória) é a sede da
+                        arquidiocese do mesmo nome. Localiza-se na Praça Pedro II,
+                        no centro de São Luís, capital do estado do Maranhão, no Brasil.
+                        É um importante monumento do núcleo antigo da cidade,
+                        declarado Patrimônio da Humanidade pela UNESCO.</p>                        
+                        <a href="https://www.instagram.com/catedraldasesaoluisma/" target="_blank" class="btn btn-primary">Veja a Igreja</a>
+                    <br></br>
+                </div>
+            </div>
+
+            <div class="box-image3" style="width: 18rem; flex-direction: row">
+                <div class="card-body bg-primary-subtle">
+                    <img src="https://beirouth.files.wordpress.com/2011/01/lec3a3o.jpg" class="card-img-top" alt="teatroarthurazevedooficial">
+                    <h3 class="card-title">Palácio dos Leões</h3>
+                    <p class="card-text">
+                        O Palácio dos Leões, sede política e institucional do Governo do Estado do Maranhão e um dos maiores patrimônios arquitetônicos do estado, data historicamente do dia 8 de setembro de 1612, quando os franceses, comandados por Daniel de La Touche, Senhor de La Ravardiere, estabeleceram a França Equinocial entre os estuários dos rios Anil e Bacanga, na Ilha de Upaon Açu, iniciando a construção de um forte, ao qual deram o nome de São Luís, em homenagem ao Rei da França.</p>
+                    <a href="https://www.instagram.com/museudopalaciodosleoes/" target="_blank" class="btn btn-primary">Veja o Palácio</a>
+                    <br></br>
+                   
+            
+                </div>
+            </div>
+
+            <div id="main_box" class="display:flex; width:30px; heigth:30px, bg-secondary"> 
+                <div class="container" style="display: flex; justify-content: space-evenly; text-align: center;">
+
+                <div class="box-image1"style="width: 18rem;">                
+                    <div class="card-body bg-secondary-subtle">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKwoBkX6rqcLPj5Skv8Sigw3qmba_6oWf_3F31t-iHjREfkWzl80s9Kp9kGk9oSFLqAlE&usqp=CAU.jpg" class="card-img-top" alt="teatroarthurazevedooficial">
+                        <h3 class="card-title">Teatro Arthur Azevedo</h3>
+                        <p class="card-text">O nome Teatro Arthur Azevedo,
+                            viria na década de 20 em homenagem a um importante
+                            teatrólogo maranhense. Desde então, o lugar enfrentou
+                            momentos de crise e chegou a funcionar como cinema,
+                            além de sofrer restaurações que acabaram por descaracterizar
+                            alguns de seus elementos. Na década de 60, o governo do
+                            estado pôs fim ao contrato com a empresa cinematográfica
+                            que o havia arrendado.</p>
+                        <a href="https://www.instagram.com/teatroarthurazevedooficial/" class="btn btn-primary">Veja o Teatro</a>
+                        <br></br>
+                    </div>
+                </div>
+
+                <div class="box-image2" style="width: 18rem;">       
+                    <div class="card-body bg-secondary-subtle">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/SaoLuisCathedral-Altar1.jpg" class="card-img-top" alt="teatroarthurazevedooficial">
+                        <h3 class="card-title">Catedral da Sé</h3>
+                        <p class="card-text">A Catedral de São Luís do Maranhão
+                            (Catedral de Nossa Senhora da Vitória) é a sede da
+                            arquidiocese do mesmo nome. Localiza-se na Praça Pedro II,
+                            no centro de São Luís, capital do estado do Maranhão, no Brasil.
+                            É um importante monumento do núcleo antigo da cidade,
+                            declarado Patrimônio da Humanidade pela UNESCO.</p>
+                        <a href="https://www.instagram.com/catedraldasesaoluisma/" class="btn btn-primary">Veja a Igreja</a>
+                        <br></br>
+                    </div>
+                </div>
+
+                <div class="box-image3" style="width: 18rem;">
+                    <div class="card-body bg-secondary-subtle">
+                        <img src="https://beirouth.files.wordpress.com/2011/01/lec3a3o.jpg" class="card-img-top" alt="teatroarthurazevedooficial">
+                        <h3 class="card-title">Palácio dos Leões</h3>
+                        <p class="card-text">
+                            O Palácio dos Leões, sede política e institucional do Governo do Estado do Maranhão e um dos maiores patrimônios arquitetônicos do estado, data historicamente do dia 8 de setembro de 1612, quando os franceses, comandados por Daniel de La Touche, Senhor de La Ravardiere, estabeleceram a França Equinocial entre os estuários dos rios Anil e Bacanga, na Ilha de Upaon Açu, iniciando a construção de um forte, ao qual deram o nome de São Luís, em homenagem ao Rei da França.</p>
+                        <a href="https://www.instagram.com/museudopalaciodosleoes/" class="btn btn-primary">Veja o Palácio</a>
+                        <br></br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="slideshowExample" class="carousel slide carousel-fade" data-bs-ride="true">
+        <button class="carousel-control-prev" href="#slideshowExample" type="button" data-bs-target="#slideshowExample" data-bs-slide="prev" style="position: absolute;">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" href="#slideshowExample" type="button" data-bs-target="#slideshowExample" data-bs-slide="next" style="position: absolute">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators">
+            <!-- Indicadores do slideshow aqui -->
+            <button type="button" data-bs-target="#slideshowExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#slideshowExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#slideshowExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <!-- Slides do slideshow aqui -->
+            <div class="carousel-inner bg-dark" style="padding: 5%; display: flex; justify-items: center; text-align: center;">
+                <div class="carousel-item active">
+                    <img src="https://beirouth.files.wordpress.com/2011/01/lec3a3o.jpg" style="width: 20rem;" alt="Palácio dos Leões">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/SaoLuisCathedral-Altar1.jpg" style="width: 20rem;" alt="igreja da Sé">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKwoBkX6rqcLPj5Skv8Sigw3qmba_6oWf_3F31t-iHjREfkWzl80s9Kp9kGk9oSFLqAlE&usqp=CAU.jpg" style="width: 20rem;" alt="teatro arthur azevedo">
+                </div>
+            </div>
+    
+            <button class="carousel-control-prev" href="#slideshowExample" type="button" data-bs-target="#slideshowExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" href="#slideshowExample" type="button" data-bs-target="#slideshowExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+       
+        
+    </div>
+</body>
+
+</html>
